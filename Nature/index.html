@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <section id="main">
+    <div id="main">
         <div class="container">
             <nav>
                 <img src="./img/logo.png" alt="" class="logo">
@@ -25,6 +25,7 @@
                     <li><a href="#">Contact</a></li>
                     <li><button class="btn btn-secondary">202-505-3333</button></li>
                 </ul>
+                <img src="img/menu.svg" alt="" class="menu-btn">
             </nav>
 
             <div class="main-content">
@@ -40,7 +41,7 @@
                 <button class="btn btn-primary">Get Started</button>
             </div>
         </div>
-    </section>
+    </div>
 
     <section id="services">
         <div class="container">
@@ -74,7 +75,7 @@
         </div>
     </section>
 
-    <section id="testimonials">
+    <section id="testimonial">
         <div class="container">
             <img src="./img/quote.png" alt="">
             <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, deserunt dignissimos quisquam tempore
@@ -134,6 +135,15 @@
             <p>Love Nature by Tyler Moore</p>
         </div>
     </footer>
+
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('nav-list')
+
+        navBtn.addEventListener('click',function () {
+            nav.classList.toggle("active");
+        })
+    </script>
 </body>
 
 </html>
