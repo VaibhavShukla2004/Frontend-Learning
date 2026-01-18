@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <div class="container">
+            <nav>
+                <img src="./img/logo.png" alt="" class="logo">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button class="btn btn-secondary">202-505-3333</button></li>
+                </ul>
+                <img src="img/menu.svg" alt="" class="menu-btn">
+            </nav>
+
+            <div class="main-content">
+                <h1 class="intro-heading">
+                    We all love
+                </h1>
+                <h1 class="main-heading">
+                    Nature
+                </h1>
+                <p>
+                    Look deep into nature, and you will understand everything better.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Our Services</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="./img/service-1.png" alt="">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim asperiores vitae quam minus!
+                        Tempore, quis autem minus dolorum, quas aspernatur alias vitae nostrum labore, fuga nesciunt
+                        necessitatibus? Voluptatum, voluptatem velit?</p>
+                </div>
+                <div class="service">
+                    <img src="./img/service-2.png" alt="">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim asperiores vitae quam minus!
+                        Tempore, quis autem minus dolorum, quas aspernatur alias vitae nostrum labore, fuga nesciunt
+                        necessitatibus? Voluptatum, voluptatem velit?</p>
+                </div>
+                <div class="service">
+                    <img src="./img/service-3.png" alt="">
+                    <h3>Content Creation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim asperiores vitae quam minus!
+                        Tempore, quis autem minus dolorum, quas aspernatur alias vitae nostrum labore, fuga nesciunt
+                        necessitatibus? Voluptatum, voluptatem velit?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <img src="./img/quote.png" alt="">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, deserunt dignissimos quisquam tempore
+                tempora esse labore qui dolorum sit omnis necessitatibus sequi nihil dolores harum sapiente amet impedit
+                delectus asperiores!</h1>
+            <div class="profile">
+                <img src="./img/profile.png" alt="">
+                <h4>Jane Miller</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>ABOUT US</h4>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, reprehenderit velit itaque
+                    distinctio quis nostrum incidunt veritatis suscipit modi quo porro quod ad, ducimus repudiandae quas
+                    debitis adipisci, libero id!</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio facere asperiores rem! Amet cum vero,
+                    a est rerum, voluptates quo non dolorem dolore expedita totam, ipsum distinctio minima corporis
+                    consectetur.
+                </p>
+                <button class="btn btn-primary">
+                    Let's Talk Now
+                </button>
+            </div>
+
+            <div class="about-image">
+                <img src="img/about.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="questions">
+        <div class="container">
+            <h1>QUESTIONS?</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi obcaecati mollitia hic ullam, ratione
+                fugit distinctio ipsa, ea, quos consequuntur dolorum sapiente sint commodi. Provident enim alias
+                eligendi ea veniam.
+            </p>
+            <button class="btn btn-primary">Let's Talk Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="img/logo-colored.png" alt="" class="footer-logo">
+            <p>Love Nature by Tyler Moore</p>
+        </div>
+    </footer>
+
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('nav-list')
+
+        navBtn.addEventListener('click',function () {
+            nav.classList.toggle("active");
+        })
+    </script>
+</body>
+
+</html>
