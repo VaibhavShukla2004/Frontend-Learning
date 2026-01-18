@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px;
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+    flex-direction: column;
+}
+
+main {
+    flex : 1;
+    display: flex;
+}
+
+.container {
+    border-style: double;
+    border: 2px solid black;
+    padding: 40px;
+    align-items: center;
+    display: flex;
+}
+
+main > .container {
+  flex: 1;
+}
+
+#box-parent {
+    display: flex;
+    border: 8px solid black;
+    gap: 10px;
+    min-height: 300px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex-shrink: 1;
+    height: 70px;
+    width: 70px;
+    background-color: #0071FF;
+    font-size: 40pt;
+    text-align: center;
+}

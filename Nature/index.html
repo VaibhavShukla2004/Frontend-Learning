@@ -78,9 +78,8 @@
     <section id="testimonial">
         <div class="container">
             <img src="./img/quote.png" alt="">
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, deserunt dignissimos quisquam tempore
-                tempora esse labore qui dolorum sit omnis necessitatibus sequi nihil dolores harum sapiente amet impedit
-                delectus asperiores!</h1>
+            <h1>Petal offers credit cards to individuals who struggle to get approved by other financial institutions,
+                empowering them to build their credit responsibly.</h1>
             <div class="profile">
                 <img src="./img/profile.png" alt="">
                 <h4>Jane Miller</h4>
@@ -138,12 +137,13 @@
 
     <script>
         const navBtn = document.querySelector('.menu-btn')
-        const navList = document.querySelector('nav-list')
+        const navList = document.querySelector('.nav-list')
 
-        navBtn.addEventListener('click',function () {
-            nav.classList.toggle("active");
+        navBtn.addEventListener('click', () => {
+            navList.classList.toggle('active')
         })
     </script>
+
 </body>
 
 </html>
